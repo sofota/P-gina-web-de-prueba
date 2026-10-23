@@ -1,0 +1,90 @@
+HEADER{
+	color:DARKSALMAON;
+	background-color:#E9967A;
+	text-align:center;
+	font-size:30;
+	}
+body{
+	color:GREEN;
+	background-color:#66CDAA;
+	}/*poner de seagreen el texto del body*/
+p{ font-family:"tahoma";
+	font-size: 20px;
+	color:SALMON;
+	text-align:justify;
+	}/* poner la lista enletra tahoma de 20 px en color purple*/
+footer{
+	color: IndianRed;
+	background-color:#CD5C5C;
+	text-align:center;
+	font-size:15px;
+}
+.VAMOSAENSAYAR{
+	font-family:"Bahnschrift Semibold";
+	font-size:22px;
+	font-style:italic;
+	font-weight:bold;
+	font-variant:small-caps;
+	color:teal;
+	text-align:center;
+	text-decoration: teal underline wavy;
+	text-sahdow:2px 2px 4px #191970;
+	line-height:1,5;
+}
+#menuhorizontal ul{
+	/* Linea para delimitar la botonera*/
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color:#E4E4E4;
+}
+#menuhorizontal ul li{
+	display:inline;
+	padding: 2px 7px; /*separar el texto*/
+	margin:5px; /*separar los botones*/
+	background-color: #800080;
+	color:white;
+	font-family:"comic Sans MS";
+	font-size:20px;
+}
+#menuhorizontal ul li:hover{
+		background-color:#CCCCCC; /*color de fondo sobre el boton*/
+		cursor:pointer;/*cambiar el aspecto del puntero*/
+}
+#menuhorizontal ul li a {
+	text-decoration:none;
+	color:inherit;
+}
+#menuD a{ /* quita el subrayado al enlace y hereda el color del texto*/
+	text-decoration:none;
+	color:inherit;
+}
+#menuD ul li {/* formato de los botones*/
+	width: 100px;
+	height: 25px;
+	display: inline-block;/* en linea pero respetando márgenes*/
+	padding: 2px 7px;
+	margin: 5px;
+	background-color:#800080;
+	color:white;
+	text-align: center;
+	font-family:"comic sans Ms";
+	font-size: 16px;
+	position: relative;
+}
+#menuD ul li:hover{
+	background-color:grey;
+	color:purple;
+}
+#menuD li>ul{
+	display:none;/* oculta las listas, sobre menus*/
+}
+#menuD li:hover>ul{ /*muestra los submenú al pasar por encima del menu*/
+	display:inline-block;/* muestra los submenu uno debajo del otro al lado del menu*/
+	position:absolute;/*evita que se superpongan los botones*/
+}
+#menuD ul>li:hover>ul{/* muestra los submenu al pasar por encima de los submenu*/
+	display:inline-block;
+	position:absolute;
+}
+
+
